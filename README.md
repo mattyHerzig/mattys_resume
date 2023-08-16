@@ -31,7 +31,10 @@ To use on Overleaf, click [here](<NOT DONE BEING UPLOADED YET :)>)
 All in all, if you're planning on using it, don't forget you can always move things around, mess with the spacing e.g. with \vspace{}, etc.
   
 ## Additional Resume Resources:
-- Check out Pitt CS's invaluable resume guide [here](https://pittcs.wiki/career/resume/). This is very useful, and an especially useful tip is when they mention how you should shorten course names e.g. Analytic Geometry & Calculus III -> Calculus III 
+- Check out Pitt CS's invaluable resume guide [here](https://pittcs.wiki/career/resume/). This is very useful, and here are my main take aways:
+  - You should shorten course names e.g. Analytic Geometry & Calculus III -> Calculus III
+  - Name the file "FirstName LastName Resume.pdf"
+  - Make the file .pdf, not .docx
 - Reddit post [here](https://www.reddit.com/r/jobs/comments/7y8k6p/im_an_exrecruiter_for_some_of_the_top_companies/)
   - Check out [this](https://www.reddit.com/r/cscareerquestions/comments/e8narz/comment/faeq8s6/?utm_source=share&utm_medium=web2x&context=3) Reddit comment, my take away was to make my resume 1 page long
 - The BEST thing you can do is look at a bunch of other resumes, preferably from those in your desired profession. See what you like, see what you don't, and change yours accordingly
