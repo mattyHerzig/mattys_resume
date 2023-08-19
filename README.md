@@ -3,7 +3,7 @@ LaTeX resume template, fit for minimalist undergrads
 
 Based on [Jake's Resume](https://github.com/jakegut/resume). Scroll below the preview for changes, additional notes, etc.
 
-To use on Overleaf, click [here](<NOT DONE BEING UPLOADED YET :)>)
+To use on Overleaf, click [here]() (Currently waiting on them to publish onto the Public Gallery...)
 
 ## Preview
 ![Matty's Resume Preview](<Matty's Resume.png>)
