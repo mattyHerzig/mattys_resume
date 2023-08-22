@@ -1,5 +1,5 @@
 # Matty's Resume
-LaTeX resume template, fit for minimalist undergrads
+Jake's Resume alternative for students
 
 Based on [Jake's Resume](https://github.com/jakegut/resume). Scroll below the preview for changes, additional notes, etc.
 
