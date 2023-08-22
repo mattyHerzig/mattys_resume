@@ -1,7 +1,7 @@
 # Matty's Resume
-Jake's Resume alternative for students
+[Jake's Resume](https://github.com/jakegut/resume) alternative for students
 
-Based on [Jake's Resume](https://github.com/jakegut/resume). Scroll below the preview for changes, additional notes, etc.
+Scroll below the preview for changes, additional notes, etc.
 
 To use on Overleaf, click [here](https://www.overleaf.com/latex/templates/mattys-resume/hsfvwkkqxyfy)
 
