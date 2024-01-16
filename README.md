@@ -14,6 +14,8 @@ To use on Overleaf, click [here](https://www.overleaf.com/latex/templates/mattys
   - Created a "Last Updated" section in the top right, using the xcolor package
 - Skills
   - Renamed "Technical Skills" to just "Skills", as I feel like the "Technical" is implied as I've seen it done before
+  - Renamed "Relevant Coursework" to just "Coursework"
+  - Made a "Hobbies" section for things that didn't exactly fit in just "Experience"
   - Moved the Skills section to just below Education, as it was supposedly recommended by a Google recruiter (on [this](https://www.reddit.com/r/csMajors/comments/mzrt2s/comment/gw37pzx/?utm_source=share&utm_medium=web2x&context=3) Reddit comment)
   - (I commented out the frameworks and libraries as I personally did not have experience with a significant amount of them at the time of making this to constitute a section for them individually, so it was better left out for space)
   - Used \LaTeX command to show off LaTeX skills.

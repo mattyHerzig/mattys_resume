@@ -1,7 +1,7 @@
 %-------------------------
 % Resume in Latex
 % Author : Matty
-% Based on: https://github.com/jakegut/resume (which was based on https://github.com/sb2nov/resume)
+% Based on: https://github.com/jakegut/resume (which was itself based on https://github.com/sb2nov/resume)
 % License : MIT
 %------------------------
 
@@ -23,7 +23,13 @@
 
 \input{glyphtounicode}
 
-% -------------------- FONT --------------------
+% -------------------- FONT OPTIONS --------------------
+% sans-serif
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% serif
+% \usepackage{charter}
+
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
@@ -100,27 +106,27 @@
 
 % -------------------- HEADING--------------------
 \begin{flushright}
-  \vspace{-4pt}
+  % \vspace{-4pt}
   \color{gray}
   \item
-  Last Updated on August 12th, 2023
+  Last Updated on January 12th, 2024
 \end{flushright}
 
-\vspace{-7pt}
+\vspace{-5pt}
 
 \begin{center}
-    \textbf{\Huge \scshape John Doe} \\ \vspace{8pt}
+    \textbf{\Huge \scshape Matty Doe} \\ \vspace{8pt}
     \small 
     \faIcon{github}
-    \href{https://github.com/johnDoe}{\underline{github.com/johnDoe}} $  $
+    \href{https://github.com/mattyDoe}{\underline{github.com/mattyDoe}} $  $
     \faIcon{code}
-    \href{https://www.johndoe.com}
-    {\underline{johndoe.com}} $  $
+    \href{https://www.mattydoe.com}
+    {\underline{mattydoe.com}} $  $
     \faIcon{linkedin}
-    \href{https://linkedin.com/in/johndoe}{\underline{linkedin.com/in/johndoe}} $  $
+    \href{https://linkedin.com/in/mattydoe}{\underline{linkedin.com/in/mattydoe}} $  $
     \faIcon{envelope}
-    \href{mailto:johndoe@gmail.com}
-    {\underline{johndoe@gmail.com}}
+    \href{mailto:mattydoe@gmail.com}
+    {\underline{mattydoe@gmail.com}}
 \end{center}
 
 % -------------------- EDUCATION --------------------
@@ -128,18 +134,18 @@
   \resumeSubHeadingListStart
   
     \resumeSubheading
-      {Cool University}{June 2026}
-      {Bachelor of Science in Computer Science}{Current GPA: 4.0/4.0}
+      {College University}{June 2026}
+      {B.S. Computer Science}{Current GPA: 4.0/4.0}
       
     \resumeSubheading
-      {Boring High School \footnotesize{(Dual Enrollment at Maple Community College)}}{June 2022}
+      {Little High School \footnotesize{(Dual Enrollment at Mission Community College)}}{June 2022}
       {}{GPA: 4.44/4.0}
 
     \vspace{-10pt}
-    \subsection{Relevant Coursework}
-      \textbf{Grades:} Exclusively A’s and AP Scores of 5/5 on all listed, completed courses\\
-      \textbf{Courses:} AP Computer Science A, Intro to Programming, Object-Oriented Programming, Data Structures (in progress), Embedded Systems, Logic Design (in progress), AP Calculus BC (and AP Calculus AB Subscore), Calculus III, Calculus IV, Discrete Mathematics, Linear Algebra, AP Statistics, Probability and Statistics I (in progress), AP Physics 1, AP Physics C: Mechanics, Principles of Engineering\\
-      \textbf{Awards:} Dean's Honor List (at Cool University, for the fall, winter, and spring quarters each), 2x AP Scholar with Distinction Awards, World Language History Award (for Spanish)
+
+    \subsection{Coursework}
+      \textbf{Courses:} Object-Oriented Programming, Data Structures \& Algorithms, Embedded Systems, Discrete Math, Linear Algebra, Calculus, Physics, Probability \& Statistics \\
+      \textbf{Awards:} Dean's Honor List (3x), AP Scholar with Distinction (2x), World Language History Award (Spanish)
 
   \resumeSubHeadingListEnd
 
@@ -148,9 +154,9 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
     
-     \textbf{Languages}{: C/C++, Java, Python, JavaScript/TypeScript, HTML/CSS, \LaTeX} \\
+     \textbf{Languages}{: C/C++, Python, Java, JavaScript/TypeScript, HTML/CSS, \LaTeX} \\
      
-     \textbf{Tools}{: Git/GitHub, Unix Shell, Node.js, Webpack, VS Code, IntelliJ IDEA, Atom}
+     \textbf{Tools}{: Git/GitHub, Unix Shell, Webpack, VS Code, IntelliJ CLion/PyCharm/IDEA, Atom}
      
      % \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
      
@@ -162,28 +168,30 @@
 % -------------------- PROJECTS --------------------
 \section{Projects}
     \resumeSubHeadingListStart
+
+        \resumeProjectHeading
+        {\textbf{Carbon} $|$ \footnotesize\emph{Flutter, Dart, Supabase, APIs (INRIX, Google Maps), Git, Unix Shell, VS Code}}{Nov. 2023}
+        \resumeItemListStart
+            \resumeItem{Team project for the INRIX Hack 2023 Hackathon, earned Honorable Mention}
+            \resumeItem{Developed a social media mobile app to gamify eco-friendliness using the INRIX API}
+            \resumeItem{Learned how to use Flutter in conjunction with backend databases and APIs}
+          \resumeItemListEnd
     
         \resumeProjectHeading
-        {\textbf{ChatBuzz} $|$ \footnotesize\emph{TypeScript, HTML/CSS, Node.js, Webpack, Twitch API, Git, Unix Shell, VS Code}}{May 2023 -- Present}
+        {\textbf{ChatBuzz} $|$ \footnotesize\emph{TypeScript, HTML/CSS, Webpack, API (Twitch), Git, Unix Shell, VS Code}}{May 2023 -- Present}
         \resumeItemListStart
             \resumeItem{Developed a full-stack web application for Twitch livestreamers to display repeated chat messages on OBS}
             \resumeItem{Experimented with Twitch API's OAuth Access Tokens to get chat data from the given channel}
-            % \resumeItem{Used minimal API calls, the bulk of the code was self-made logic and design}
-            % \resumeItem{Chose to restart the entire project to optimize runtime and experience}
             \resumeItem{Collaborated with livestreamers to get feedback and suggested features}
             \resumeItem{Solved problems relating to asynchronous tasks}
-            % \resumeItem{Optimized UX (User Experience) e.g. bought a simple domain name, made documentation, recorded a setup \& demo video, customization through URL arguments}
-            % \resumeItem{Published to GitHub and obsproject.com}
-        \resumeItemListEnd
+          \resumeItemListEnd
           
-        \resumeProjectHeading
-        {\textbf{FoodDropper} $|$ \footnotesize\emph{Java, Maven, Spigot API, Git, IntelliJ IDEA}}{August 2022}
+      \resumeProjectHeading
+        {\textbf{FoodDropper} $|$ \footnotesize\emph{Java, Maven, API (Spigot), Git, IntelliJ IDEA}}{Aug. 2022}
         \resumeItemListStart
             \resumeItem{Developed a Minecraft server plugin to limit players to one way of replenishing their hunger bar}
-            % \resumeItem{Created intended behavior by making logic complying to the extensive Spigot API in Java}
             \resumeItem{Used persistent data containers to save and load data, ensuring that it persists across plugin resets}
-            \resumeItem{Optimized UX (User Experience) e.g. prioritized sound design, timing of food drops, supplied saturation level, and had to address many potential workarounds in the numerous ways of destroying the food dropper}
-            % \resumeItem{Published to GitHub and spigotmc.org}
+            \resumeItem{Optimized UX e.g. sound design, food drop timing, supplied saturation level, and addressed potential workarounds}
         \resumeItemListEnd
           
     \resumeSubHeadingListEnd
@@ -192,29 +200,27 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
-        \resumeProjectHeading
-          {\textbf{CS Club} $|$ \footnotesize\emph{Member}\vspace{8pt}}{Present}
-          {\small{Cool University club centered around Computer Science topics}}
+          \resumeProjectHeading
+          {\textbf{Competitive Programming Club} $|$ \footnotesize\emph{Member}\vspace{8pt}}{Sept. 2023 -- Present}
+          {\small{Involved in the club centered around Competitive Programming}}
 
-        \resumeProjectHeading
-          {\textbf{Professional Tutoring}\vspace{8pt} $|$ \footnotesize\emph{Tutor}}{2019 -- Present}
-          \small{Self-explanatory...}
+          \resumeProjectHeading
+          {\textbf{Apex Tutoring}\vspace{8pt} $|$ \footnotesize\emph{Tutor}}{2019 -- Present}
+          \small{Routinely tutor K--12 students in math, coding, etc.}
 
-        \resumeProjectHeading
-          {\textbf{Super Club} $|$ \footnotesize\emph{Founder, Manager, Member}\vspace{8pt}}{Jan. 2021 -- April 2021}
-          {\small{Learned how to fly}}
+          \resumeProjectHeading
+          {\textbf{Luigi Team Charity} $|$ \footnotesize\emph{Volunteer, Manager}\vspace{8pt}}{2018 -- Present}
+          {\small{Earned an award for philanthropic hours spent, still giving away 100 stocked backpacks a year}}
 
-        \resumeProjectHeading
-          {\textbf{Marmaduke Charity} $|$ \footnotesize\emph{Volunteer, Manager}\vspace{8pt}}{August 2018 -- Present}
-          {\small{Interacted with and helped the local community. Earned an award for philanthropic hours spent}}
+        \subsection{Hobbies}
+          
+          \resumeProjectHeading
+          {\textbf{Playing the Drums}\vspace{8pt}}{2013 -- 2019}
+          {\small{Played the drums in symphonic, jazz, and marching bands}}
 
-        \resumeProjectHeading
-          {\textbf{Playing the Oboe}\vspace{8pt} $|$ \footnotesize\emph{Clarinet Player}}{August 2013 - June 2019}
-          {\small{Played the oboe for years, even joining jazz and marching bands. Took significant time, effort, and practice}}
-
-        \resumeProjectHeading
-          {\textbf{3\textsuperscript{rd} Place Time Keeper \footnotesize{(Local Competition, Family Tradition)}}\vspace{8pt} $|$ \footnotesize\emph{Competitor}}{Feb. 2022 -- May 2022}
-          {\small{Won \$50 locally competing against high school students in keeping track of the time}}
+          \resumeProjectHeading
+          {\textbf{3\textsuperscript{rd} Place Time Keeping Challenge Championship \footnotesize{(Time Keeping Assocation)}}\vspace{8pt}}{Feb. 2022 -- May 2022}
+          {\small{Won \$1500 nationally competing against high school students in counting seconds and minutes}}
           
     \resumeSubHeadingListEnd 
 
