@@ -5,6 +5,8 @@ Scroll below the preview for changes, additional notes, etc.
 
 To use on Overleaf, click [here](https://www.overleaf.com/latex/templates/mattys-resume/hsfvwkkqxyfy)
 
+(I've also made an alternative Google Docs template [here](https://github.com/mattyHerzig/resume))
+
 ## Preview
 ![Matty's Resume Preview](<Matty's Resume.png>)
 
