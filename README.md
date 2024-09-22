@@ -40,5 +40,5 @@ All in all, if you're planning on using it, don't forget you can always move thi
   - Name the file "FirstName LastName Resume.pdf"
   - Make the file .pdf, not .docx
 - Reddit post [here](https://www.reddit.com/r/jobs/comments/7y8k6p/im_an_exrecruiter_for_some_of_the_top_companies/)
-  - Check out [this](https://www.reddit.com/r/cscareerquestions/comments/e8narz/comment/faeq8s6/?utm_source=share&utm_medium=web2x&context=3) Reddit comment, my take away was to make my resume 1 page long
+  - Check out [this](https://www.reddit.com/r/cscareerquestions/comments/e8narz/comment/faeq8s6/) Reddit comment, my take away was to make my resume 1 page long
 - The BEST thing you can do is look at a bunch of other resumes, preferably from those in your desired profession. See what you like, see what you don't, and change yours accordingly
