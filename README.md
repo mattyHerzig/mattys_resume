@@ -3,7 +3,9 @@
 
 Scroll below the preview for changes, additional notes, etc.
 
-To use on Overleaf, click [here](https://www.overleaf.com/latex/templates/mattys-resume/hsfvwkkqxyfy)
+To view on Overleaf, click [here](https://www.overleaf.com/read/kzgbbrnvztyq#7ddd89)
+
+<!-- [here](https://www.overleaf.com/latex/templates/mattys-resume/hsfvwkkqxyfy) is the outdated version on the Gallery. Apparently, they've stopped accepting CV templates, so I can no longer put newer versions there -->
 
 (I've also made an alternative Google Docs template [here](https://github.com/mattyHerzig/resume))
 
